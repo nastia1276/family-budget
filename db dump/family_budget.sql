@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Час створення: Гру 18 2023 р., 02:28
+-- Час створення: Гру 18 2023 р., 12:19
 -- Версія сервера: 10.4.28-MariaDB
 -- Версія PHP: 8.0.28
 
@@ -64,8 +64,8 @@ CREATE TABLE `family_members` (
 --
 
 INSERT INTO `family_members` (`user_id`, `name`, `surname`, `age`, `username`, `password`, `role`) VALUES
-(16, 'Content box', 'фіва', 12, 'asdf', 'asdf', 'головни'),
-(17, 'Антон', 'Ващук', 35, 'anton', 'asdf', 'головний');
+(17, 'Антон', 'Ващук', 35, 'anton', 'asdf', 'головний'),
+(18, 'Віра', 'Ващук', 18, 'asdf', 'asdf', 'дочка');
 
 -- --------------------------------------------------------
 
@@ -127,7 +127,7 @@ ALTER TABLE `expenses`
 -- AUTO_INCREMENT для таблиці `family_members`
 --
 ALTER TABLE `family_members`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT для таблиці `income`
